@@ -14,7 +14,14 @@
         'q-professional': [
             { value: 'professional-1', label: 'Phục hồi và thư giãn' },
             { value: 'professional-2', label: 'Năng Lượng & Cơ Xương Khớp' },
-            { value: 'professional-3', label: 'Thanh Lọc & Giảm Đau' }
+            { value: 'professional-3', label: 'Thanh Lọc & Giảm Đau' },
+            { value: 'professional-4', label: 'Phục Hồi Thể Lực & Tái Tạo' },
+            { value: 'professional-5', label: 'Sạch Mụn Sáng Da' },
+            { value: 'professional-6', label: 'Trẻ Hóa Chuyên Sâu' },
+            { value: 'professional-7', label: 'Xóa Nhăn & Phục Hồi' },
+            { value: 'professional-8', label: 'Phục hồi năng lượng' },
+            { value: 'professional-9', label: 'Cân Bằng Thân Tâm' },
+            { value: 'professional-10', label: 'Đặc Trị Cơ Xương Khớp' }
         ],
         'q-skill': [
             { value: 'skill-1', label: 'Massage Phục Hồi-Cạo Gió' },
