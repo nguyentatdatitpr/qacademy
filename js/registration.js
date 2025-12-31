@@ -12,9 +12,9 @@
             { value: 'therapist-5', label: 'Q-Therapist Gói 5' }
         ],
         'q-professional': [
-            { value: 'professional-1', label: 'Khóa học chuyên viên spa toàn diện' },
-            { value: 'professional-2', label: 'Khóa học chuyên gia chăm sóc & điều trị da mặt' },
-            { value: 'professional-3', label: 'Khóa học chuyên gia trị liệu thân thể' }
+            { value: 'professional-1', label: 'Phục hồi và thư giãn' },
+            { value: 'professional-2', label: 'Năng Lượng & Cơ Xương Khớp' },
+            { value: 'professional-3', label: 'Thanh Lọc & Giảm Đau' }
         ],
         'q-skill': [
             { value: 'skill-1', label: 'Massage Phục Hồi-Cạo Gió' },
