@@ -1,0 +1,80 @@
+/* CSS Variables - Design Tokens */
+:root {
+    /* Colors */
+    --color-primary: #4f5664;
+    --color-white: #ffffff;
+    --color-black: #111111;
+    --color-overlay: rgba(17, 17, 17, 0.8);
+    --color-overlay-end: rgba(100, 104, 66, 0);
+
+    /* Typography */
+    --font-family: 'Be Vietnam Pro', sans-serif;
+    --font-size-base: 16px;
+    --font-size-nav: 18px;
+    --font-size-title: 48px;
+    --font-size-description: 20px;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+    --spacing-2xl: 120px;
+
+    /* Layout */
+    --header-height: 110px;
+    --container-max-width: 1440px;
+    --container-padding: 120px;
+
+    /* Border Radius */
+    --radius-full: 9999px;
+    --radius-lg: 16px;
+    --radius-md: 8px;
+
+    /* Shadows */
+    --shadow-button:
+        0px 3px 1px 0px rgba(0, 0, 0, 0),
+        0px 2px 1px 0px rgba(0, 0, 0, 0.01),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.05),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.09);
+
+    /* Transitions */
+    --transition-fast: 200ms ease;
+    --transition-normal: 300ms ease;
+    --transition-slow: 500ms ease;
+
+    /* Z-index */
+    --z-header: 1000;
+    --z-overlay: 100;
+    --z-content: 1;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+    :root {
+        --container-padding: 60px;
+        --font-size-title: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --container-padding: 24px;
+        --font-size-title: 32px;
+        --font-size-nav: 16px;
+        --header-height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --font-size-title: 28px;
+        --font-size-description: 16px;
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b \"E:\\\\QAAAAAAAAAAAAAAAAA\\\\*.png\" \"E:\\\\QAAAAAAAAAAAAAAAAA\\\\*.jpg\")",
+      "Bash(dir /s /b \"E:\\\\QAAAAAAAAAAAAAAAAA\")",
+      "Bash(curl:*)",
+      "Bash(if not exist \"E:\\\\QAAAAAAAAAAAAAAAAA\\\\assets\\\\images\\\\courses\" mkdir \"E:\\\\QAAAAAAAAAAAAAAAAA\\\\assets\\\\images\\\\courses\")",
+      "Bash(cmd //c \"mkdir E:\\\\QAAAAAAAAAAAAAAAAA\\\\assets\\\\images\\\\courses 2>nul || echo Folder exists\")",
+      "Bash(npx @anthropic/mcp-client:*)",
+      "Bash(where:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

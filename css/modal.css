@@ -1,0 +1,381 @@
+/* Registration Modal Styles */
+.registration-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.registration-modal.active {
+    display: flex;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/* Modal Container */
+.modal-container {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 24px;
+    max-width: 450px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    z-index: 2;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Modal Close Button */
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+    z-index: 3;
+}
+
+.modal-close:hover {
+    background: #8B9A5B;
+    transform: rotate(90deg);
+}
+
+.modal-close:hover svg {
+    stroke: #FFFFFF;
+}
+
+.modal-close svg {
+    width: 20px;
+    height: 20px;
+    stroke: #333;
+    transition: stroke var(--transition-fast);
+}
+
+/* Modal Content */
+.modal-content {
+    padding: 60px 40px 40px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: var(--font-weight-bold);
+    color: #8B9A5B;
+    text-align: center;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+/* Countdown Timer */
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: rgba(139, 154, 91, 0.08);
+    border: 2px solid rgba(139, 154, 91, 0.3);
+    border-radius: 12px;
+    padding: 16px 24px;
+    margin-bottom: 28px;
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50px;
+}
+
+.countdown-label {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.countdown-value {
+    font-size: 32px;
+    font-weight: var(--font-weight-bold);
+    color: #8B9A5B;
+    line-height: 1;
+}
+
+.countdown-separator {
+    font-size: 28px;
+    font-weight: var(--font-weight-bold);
+    color: #8B9A5B;
+    margin-top: 14px;
+}
+
+/* Warning Text */
+.form-warning {
+    font-size: 18px;
+    font-weight: var(--font-weight-semibold);
+    color: #E53935;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Modal Form */
+.modal-form .form-group {
+    margin-bottom: 20px;
+}
+
+.modal-form .form-label {
+    display: block;
+    font-size: 12px;
+    font-weight: var(--font-weight-semibold);
+    color: #333;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.modal-form .form-input,
+.modal-form .form-select {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #333;
+    background: #fff;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.modal-form .form-input::placeholder {
+    color: #999;
+}
+
+.modal-form .form-input:focus,
+.modal-form .form-select:focus {
+    outline: none;
+    border-color: #8B9A5B;
+    box-shadow: 0 0 0 3px rgba(139, 154, 91, 0.1);
+}
+
+.modal-form .form-select-wrapper {
+    position: relative;
+}
+
+.modal-form .form-select {
+    appearance: none;
+    padding-right: 40px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.modal-form .select-arrow {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    stroke: #666;
+    pointer-events: none;
+    transition: transform var(--transition-fast);
+}
+
+.modal-form .form-select:focus + .select-arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* Modal Submit Button */
+.modal-submit {
+    width: 100%;
+    padding: 18px 32px;
+    background: linear-gradient(135deg, #C5D16D 0%, #A8B85A 100%);
+    color: #333;
+    font-size: 15px;
+    font-weight: var(--font-weight-semibold);
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all var(--transition-fast);
+    margin-top: 8px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.modal-submit:hover {
+    background: linear-gradient(135deg, #B8C460 0%, #9BAB4D 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(139, 154, 91, 0.3);
+}
+
+.modal-submit svg {
+    width: 18px;
+    height: 18px;
+    transition: transform var(--transition-fast);
+}
+
+.modal-submit:hover svg {
+    transform: translateX(4px);
+}
+
+.modal-form .form-note {
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Scrollbar Styling */
+.modal-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-container::-webkit-scrollbar-track {
+    background: #F5F5F5;
+    border-radius: 0 16px 16px 0;
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+    background: #8B9A5B;
+    border-radius: 4px;
+}
+
+.modal-container::-webkit-scrollbar-thumb:hover {
+    background: #6B7A4B;
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+    .modal-content {
+        padding: 60px 32px 32px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+    }
+
+    .countdown-timer {
+        padding: 14px 16px;
+        gap: 6px;
+    }
+
+    .countdown-item {
+        min-width: 40px;
+    }
+
+    .countdown-value {
+        font-size: 26px;
+    }
+
+    .countdown-separator {
+        font-size: 24px;
+    }
+
+    .modal-form .form-input,
+    .modal-form .form-select {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+
+    .modal-form .form-select {
+        padding-right: 36px;
+    }
+
+    .modal-submit {
+        padding: 16px 28px;
+        font-size: 14px;
+    }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+    .registration-modal {
+        padding: 16px;
+    }
+
+    .modal-container {
+        border-radius: 20px;
+        max-height: 95vh;
+    }
+
+    .modal-content {
+        padding: 60px 20px 28px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+    }
+
+    .countdown-timer {
+        flex-wrap: wrap;
+        gap: 8px 4px;
+    }
+
+    .countdown-item {
+        min-width: 36px;
+    }
+
+    .countdown-value {
+        font-size: 22px;
+    }
+
+    .countdown-separator {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .modal-form .form-group {
+        margin-bottom: 16px;
+    }
+
+    .modal-close {
+        width: 36px;
+        height: 36px;
+        top: 12px;
+        right: 12px;
+    }
+
+    .modal-close svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Prevent body scroll when modal is open */
+body.modal-open {
+    overflow: hidden;
+}

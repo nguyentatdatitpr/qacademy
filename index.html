@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QAcademy - Nền tảng đào tạo chuyên nghiệp hàng đầu Việt Nam">
+    <title>QAcademy - Nền tảng đào tạo chuyên nghiệp</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/opportunities.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="top-header" id="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="assets/images/logo_qacademy.png" alt="QAcademy Logo" class="logo-image">
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="menu-nav">
+                <a href="#courses" class="nav-link">Khóa học</a>
+                <a href="#about" class="nav-link">Về chúng tôi</a>
+                <a href="#team" class="nav-link">Đội ngũ</a>
+                <a href="#opportunities" class="nav-link">Cơ hội</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="header-cta">
+                <button class="btn-header" id="consultBtn">
+                    <span>ĐĂNG KÝ TƯ VẤN</span>
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner-section" id="banner">
+        <div class="banner-background">
+            <picture>
+                <source media="(max-width: 768px)" srcset="assets/images/hero-banner-mobile.jpg">
+                <img src="assets/images/hero-banner-desktop.jpg" alt="Banner Background" class="banner-image">
+            </picture>
+            <div class="banner-overlay"></div>
+        </div>
+
+        <div class="banner-content">
+            <div class="banner-text">
+                <h1 class="banner-title">Q Academy</h1>
+                <h2 class="banner-subtitle">HỌC VIỆN ĐÀO TẠO SPA CAO CẤP</h2>
+                <p class="banner-description">
+                    Không chỉ dạy nghề, chúng tôi truyền đạt 18 năm kinh doanh Spa chuẩn<br>
+                    5 sao để kiến tạo nên những Chuyên gia Spa Toàn Diện xuất chúng
+                </p>
+
+                <!-- Course Tags -->
+                <div class="course-tags">
+                    <a href="#q-therapist" class="course-tag">
+                        <span class="tag-name">Q-Therapist</span>
+                        <span class="tag-duration">6 tháng</span>
+                    </a>
+                    <a href="#q-professional" class="course-tag">
+                        <span class="tag-name">Q-Professional</span>
+                        <span class="tag-duration">3 tháng</span>
+                    </a>
+                    <a href="#q-skill" class="course-tag">
+                        <span class="tag-name">Q-Skill</span>
+                        <span class="tag-duration">1 tháng</span>
+                    </a>
+                </div>
+
+                <div class="banner-cta">
+                    <button class="btn-cta">NHẬN TƯ VẤN NGAY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Courses Section -->
+        <section class="courses-section" id="courses">
+            <div class="courses-container">
+                <!-- Section Header -->
+                <div class="courses-header">
+                    <span class="section-label">KHÓA HỌC</span>
+                    <h2 class="section-title">Chọn <span class="highlight">Lộ Trình Nâng Cấp</span> Của Bạn</h2>
+                    <p class="section-description">Từ người mới bắt đầu đến chuyên gia, Q Academy có lộ trình phù hợp cho mọi mục tiêu của bạn</p>
+                </div>
+
+                <!-- Q-Therapist - 6 tháng -->
+                <div class="course-category" id="q-therapist">
+                    <div class="category-info">
+                        <div class="category-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Chứng chỉ Bộ GD & ĐT TP.HCM</span>
+                        </div>
+                        <h3 class="category-duration">Khóa học 6 tháng</h3>
+                        <h4 class="category-name">Q-Therapist</h4>
+                        <p class="category-desc">Đào tạo quản lý mô hình Spa toàn diện, bài bản, chuyên nghiệp.</p>
+                        <div class="category-price">
+                            <span class="price-old">60.000.000đ/lớp</span>
+                            <span class="price-discount">-33%</span>
+                        </div>
+                        <div class="price-current">40.000.000đ/lớp</div>
+                        <div class="scroll-nav">
+                            <button class="scroll-btn scroll-prev" aria-label="Previous">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"/>
+                                </svg>
+                            </button>
+                            <button class="scroll-btn scroll-next" aria-label="Next">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="category-courses">
+                        <!-- Course Card 1 - Gói 1 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-therapist-1.jpg" alt="Q-Therapist Gói 1">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Q-THERAPIST GÓI 1</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>100 buổi - 300 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Massage Thái</li>
+                                        <li>Massage Thụy Điển</li>
+                                        <li>Massage Phục Hồi-Cạo Gió</li>
+                                        <li>Chăm sóc da mặt căn bản</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-therapist" data-class="therapist-1">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 2 - Gói 2 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-therapist-2.jpg" alt="Q-Therapist Gói 2">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Q-THERAPIST GÓI 2</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>100 buổi - 300 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Massage Thái</li>
+                                        <li>Massage Thảo Dược</li>
+                                        <li>Massage dành riêng cho mẹ Bầu</li>
+                                        <li>Chăm sóc da mặt căn bản</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-therapist" data-class="therapist-2">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 3 - Gói 3 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-therapist-3.jpg" alt="Q-Therapist Gói 3">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Q-THERAPIST GÓI 3</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>100 buổi - 300 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Massage Thụy Điển</li>
+                                        <li>Massage Đá Nóng</li>
+                                        <li>Massage Foot</li>
+                                        <li>Chăm sóc da mặt căn bản</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-therapist" data-class="therapist-3">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 4 - Gói 4 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-therapist-4.jpg" alt="Q-Therapist Gói 4">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Q-THERAPIST GÓI 4</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>100 buổi - 300 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Massage Thảo Dược</li>
+                                        <li>Massage Bali</li>
+                                        <li>Massage Shiatsu</li>
+                                        <li>Chăm sóc da căn bản</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-therapist" data-class="therapist-4">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 5 - Gói 5 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-therapist-5.jpg" alt="Q-Therapist Gói 5">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">Q-THERAPIST GÓI 5</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>100 buổi - 300 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Massage Bali</li>
+                                        <li>Massage Đá Nóng</li>
+                                        <li>Massage cho người đánh Golf</li>
+                                        <li>Chăm sóc da mặt căn bản</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-therapist" data-class="therapist-5">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Q-Professional - 3 tháng -->
+                <div class="course-category" id="q-professional">
+                    <div class="category-info">
+                        <div class="category-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Chứng chỉ Q Academy</span>
+                        </div>
+                        <h3 class="category-duration">Khóa học 3 tháng</h3>
+                        <h4 class="category-name">Q-Professional</h4>
+                        <p class="category-desc">Đào tạo chuyên viên Spa toàn diện, chuyên nghiệp.</p>
+                        <div class="category-price">
+                            <span class="price-old">30.000.000đ/lớp</span>
+                            <span class="price-discount">-33%</span>
+                        </div>
+                        <div class="price-current">20.000.000đ/lớp</div>
+                        <div class="scroll-nav">
+                            <button class="scroll-btn scroll-prev" aria-label="Previous">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"/>
+                                </svg>
+                            </button>
+                            <button class="scroll-btn scroll-next" aria-label="Next">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="category-courses">
+                        <!-- Course Card 1 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-professional-1.jpg" alt="Khóa học chuyên viên spa toàn diện">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">KHÓA HỌC CHUYÊN VIÊN SPA TOÀN DIỆN</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>50 buổi - 150 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kiến thức nền tảng về Sắc tố & Cấu trúc da</li>
+                                        <li>Quy trình Làm trắng & Massage dưỡng da chuẩn Spa</li>
+                                        <li>Kỹ thuật Massage Thái & Bấm huyệt cơ bản</li>
+                                        <li>Kỹ thuật ứng dụng Mask dưỡng sáng da</li>
+                                        <li>Kỹ năng Tư vấn & Thiết lập liệu trình cá nhân</li>
+                                        <li>Chăm sóc Thực hành thực tế & Rèn luyện tay nghề chuyên sâu da mặt căn bản</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-professional" data-class="professional-1">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 2 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-professional-2.jpg" alt="Khóa học chuyên gia chăm sóc & điều trị da mặt">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">KHOÁ HỌC CHUYÊN GIA CHĂM SÓC & ĐIỀU TRỊ DA MẶT</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>50 buổi - 150 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Cơ chế hình thành sắc tố da</li>
+                                        <li>Kỹ thuật Peeling hóa học & Mask dưỡng</li>
+                                        <li>Phác đồ phục hồi & Chăm sóc sau điều trị</li>
+                                        <li>Kỹ năng điều trị spa cao cấp</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-professional" data-class="professional-2">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 3 -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-professional-3.jpg" alt="Khóa học chuyên gia trị liệu thân thể">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">KHOÁ HỌC CHUYÊN GIA TRỊ LIỆU THÂN THỂ</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>50 buổi - 150 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Nguyên lý & Triết lý trị liệu</li>
+                                        <li>Kỹ thuật kéo giãn cơ sâu</li>
+                                        <li>Liệu pháp Chườm nóng toàn thân</li>
+                                        <li>Kỹ thuật Bấm huyệt thân thể</li>
+                                        <li>Thực hành tác phẩm hoàn chỉnh</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-professional" data-class="professional-3">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Q-Skill - 1 tháng -->
+                <div class="course-category" id="q-skill">
+                    <div class="category-info">
+                        <div class="category-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Chứng chỉ Q Academy</span>
+                        </div>
+                        <h3 class="category-duration">Khóa học 1 tháng</h3>
+                        <h4 class="category-name">Q-Skill</h4>
+                        <p class="category-desc">Đào kỹ năng Spa chuyên sâu, nâng cao tay nghề.</p>
+                        <div class="category-price">
+                            <span class="price-old">10.000.000đ/lớp</span>
+                            <span class="price-discount">-20%</span>
+                        </div>
+                        <div class="price-current">8.000.000đ/lớp</div>
+                        <div class="scroll-nav">
+                            <button class="scroll-btn scroll-prev" aria-label="Previous">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"/>
+                                </svg>
+                            </button>
+                            <button class="scroll-btn scroll-next" aria-label="Next">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="category-courses">
+                        <!-- Course Card 1 - Massage Phục Hồi-Cạo Gió -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-1.jpg" alt="Massage Phục Hồi-Cạo Gió">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE PHỤC HỒI-CẠO GIÓ</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage phục hồi</li>
+                                        <li>Cạo gió truyền thống</li>
+                                        <li>Bấm huyệt điều trị</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-1">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 2 - Massage Thái -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-2.jpg" alt="Massage Thái">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE THÁI</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage Thái truyền thống</li>
+                                        <li>Bấm huyệt và kéo giãn cơ</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-2">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 3 - Massage dành riêng cho mẹ Bầu -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-3.jpg" alt="Massage dành riêng cho mẹ Bầu">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE DÀNH RIÊNG CHO MẸ BẦU</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật an toàn cho mẹ bầu</li>
+                                        <li>Giảm đau lưng và phù nề</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-3">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 4 - Massage Thụy Điển -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-4.jpg" alt="Massage Thụy Điển">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE THỤY ĐIỂN</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage Thụy Điển</li>
+                                        <li>Xoa bóp thư giãn cơ</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-4">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 5 - Massage Foot -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-5.jpg" alt="Massage Foot">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE FOOT</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage chân</li>
+                                        <li>Bấm huyệt bàn chân</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-5">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 6 - Massage Thảo Dược -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-6.jpg" alt="Massage Thảo Dược">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE THẢO DƯỢC</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật chườm thảo dược</li>
+                                        <li>Sử dụng túi thảo mộc</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-6">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 7 - Massage Shiatsu -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-7.jpg" alt="Massage Shiatsu">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE SHIATSU</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage Shiatsu Nhật Bản</li>
+                                        <li>Bấm huyệt bằng ngón tay</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-7">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 8 - Massage Bali -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-8.jpg" alt="Massage Bali">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE BALI</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage Bali truyền thống</li>
+                                        <li>Xoa bóp bấm huyệt</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-8">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 9 - Massage Đá Nóng -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-9.jpg" alt="Massage Đá Nóng">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE ĐÁ NÓNG</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage đá nóng</li>
+                                        <li>Sử dụng đá bazan an toàn</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-9">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 10 - Massage cho người đánh Golf -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-10.jpg" alt="Massage cho người đánh Golf">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">MASSAGE CHO NGƯỜI ĐÁNH GOLF</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Kỹ thuật massage thể thao</li>
+                                        <li>Phục hồi cơ cho golfer</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-10">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Course Card 11 - Chăm sóc da mặt căn bản -->
+                        <div class="course-card">
+                            <div class="card-image">
+                                <img src="assets/images/courses/q-skill-11.jpg" alt="Chăm sóc da mặt căn bản">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="card-title">CHĂM SÓC DA MẶT CĂN BẢN</h5>
+                                <div class="card-meta">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="16" y1="2" x2="16" y2="6"/>
+                                        <line x1="8" y1="2" x2="8" y2="6"/>
+                                        <line x1="3" y1="10" x2="21" y2="10"/>
+                                    </svg>
+                                    <span>12 buổi - 36 giờ</span>
+                                </div>
+                                <div class="card-details">
+                                    <div class="details-header">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                            <polyline points="14 2 14 8 20 8"/>
+                                            <line x1="16" y1="13" x2="8" y2="13"/>
+                                            <line x1="16" y1="17" x2="8" y2="17"/>
+                                        </svg>
+                                        <span>Nội dung</span>
+                                    </div>
+                                    <ul class="details-list">
+                                        <li>Quy trình chăm sóc da cơ bản</li>
+                                        <li>Massage mặt và đắp mặt nạ</li>
+                                        <li>Thực hành chuyên sâu</li>
+                                    </ul>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="card-link">
+                                        <span>Xem chi tiết</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                            <polyline points="12 5 19 12 12 19"/>
+                                        </svg>
+                                    </a>
+                                    <button class="card-btn" data-course="q-skill" data-class="skill-11">ĐĂNG KÝ TƯ VẤN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section - Tinh Hoa Giáo Trình -->
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-content">
+                    <!-- Image Side -->
+                    <div class="about-image">
+                        <div class="about-image-wrapper">
+                            <img src="assets/images/about-massage.jpg" alt="Tinh hoa giáo trình Q Academy - Massage trị liệu chuyên nghiệp">
+                        </div>
+                    </div>
+
+                    <!-- Text Side -->
+                    <div class="about-text">
+                        <h2 class="about-title">Tinh Hoa Giáo Trình <span class="highlight"><br>Q-Academy</span></h2>
+                        <p class="about-description">
+                            Q Academy ra đời từ thực tế 18 năm vận hành QSpa, khi chúng tôi quá khó khăn để tìm kiếm kỹ thuật viên có "tay nghề giỏi" đi đôi với "tâm nghề tốt".
+                        </p>
+                        <p class="about-description">
+                            Sứ mệnh Q Academy không dạy nghề đại trà, chúng tôi chuyển giao bí quyết vận hành 5 sao để bạn trở thành phiên bản chuyên nghiệp nhất.
+                        </p>
+
+                        <!-- Stats -->
+                        <div class="about-stats">
+                            <div class="stat-card">
+                                <div class="stat-number">18+</div>
+                                <div class="stat-label">Năm kinh nghiệm</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">1000+</div>
+                                <div class="stat-label">Học viên tốt nghiệp</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">99%</div>
+                                <div class="stat-label">Có cơ hội việc làm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section - Đội Ngũ Giảng Viên -->
+        <section class="team-section" id="team">
+            <div class="team-container">
+                <!-- Section Header -->
+                <div class="team-header">
+                    <h2 class="team-title">Đội Ngũ Giảng Viên <span class="highlight">"Bậc Thầy"</span></h2>
+                </div>
+
+                <!-- Pyramid with Info Cards -->
+                <div class="pyramid-wrapper">
+                    <!-- Info Card 1 - Top Right -->
+                    <div class="info-card info-card-1">
+                        <div class="info-card-content">
+                            <h4 class="info-card-title">1. Founder Quyền</h4>
+                            <p class="info-card-desc">18 năm kinh nghiệm, từ học nghề đến xây dựng di sản QSpa cao cấp 5 sao.</p>
+                        </div>
+                    </div>
+
+                    <!-- Info Card 2 - Bottom Left -->
+                    <div class="info-card info-card-2">
+                        <div class="info-card-content">
+                            <h4 class="info-card-title">2. Đội ngũ bác sĩ chuyên môn cao</h4>
+                            <p class="info-card-desc">Đội ngũ 6 bác sĩ đảm bảo mọi bài học đều chuẩn y khoa và khoa học.</p>
+                        </div>
+                    </div>
+
+                    <!-- Info Card 3 - Bottom Right -->
+                    <div class="info-card info-card-3">
+                        <div class="info-card-content">
+                            <h4 class="info-card-title">3. Master Therapists</h4>
+                            <p class="info-card-desc">Đội ngũ 18 giảng viên là những người có hơn 18 năm thực chiến trực tiếp kèm cặp 1-1.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pyramid -->
+                    <div class="pyramid-container">
+                        <div class="pyramid">
+                            <!-- Main large triangle (dark green) -->
+                            <div class="pyramid-main"></div>
+                            <!-- Inverted triangle in center (light green) -->
+                            <div class="pyramid-inner"></div>
+                            <!-- Top text - Founder -->
+                            <div class="pyramid-text-top">
+                                <span>Founder</span><br>
+                                <span>Quyền 18</span><br>
+                                <span>năm kinh nghiệm</span>
+                            </div>
+                            <!-- Bottom left text -->
+                            <div class="pyramid-text-left">Đội ngũ bác sĩ chuyên môn cao</div>
+                            <!-- Bottom right text -->
+                            <div class="pyramid-text-right">Master<br>Therapists</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Banner -->
+                <div class="team-cta-banner">
+                    <p class="cta-banner-text">Gia nhập đội ngũ tinh hoa, bắt đầu hành trình chuyên nghiệp của bạn từ hôm nay</p>
+                    <button class="cta-banner-btn">
+                        ĐĂNG KÝ TƯ VẤN
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12 5 19 12 12 19"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Team Members Carousel Wrapper -->
+                <div class="team-members-wrapper">
+                    <div class="team-members" id="teamCarousel">
+                        <!-- Member 1 -->
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="assets/images/CEO.JPG" alt="Founder Quyền">
+                            </div>
+                            <h4 class="member-name">Founder Quyền</h4>
+                            <p class="member-role">Founder Q Academy</p>
+                        </div>
+
+                        <!-- Member 2 -->
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="assets/images/BS Tiên.JPG" alt="Bác sĩ Tiên">
+                            </div>
+                            <h4 class="member-name">Bác sĩ Tiên</h4>
+                            <p class="member-role">Giảng viên</p>
+                        </div>
+
+                        <!-- Member 3 -->
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="assets/images/BS Ngân.JPG" alt="Bác sĩ Ngân">
+                            </div>
+                            <h4 class="member-name">Bác sĩ Ngân</h4>
+                            <p class="member-role">Giảng viên</p>
+                        </div>
+
+                        <!-- Member 4 -->
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="assets/images/BS Trang.JPG" alt="Bác sĩ Trang">
+                            </div>
+                            <h4 class="member-name">Bác sĩ Trang</h4>
+                            <p class="member-role">Giảng viên</p>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Navigation -->
+                    <div class="carousel-nav">
+                        <button class="carousel-btn carousel-prev" id="teamPrev" aria-label="Previous">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"/>
+                            </svg>
+                        </button>
+                        <button class="carousel-btn carousel-next" id="teamNext" aria-label="Next">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opportunities Section - Cơ Hội Tại Q Academy -->
+        <section class="opportunities-section" id="opportunities">
+            <div class="opportunities-container">
+                <!-- Section Header -->
+                <div class="opportunities-header">
+                    <h2 class="opportunities-title"><span class="highlight">Cơ Hội</span> Tại Q Academy</h2>
+                </div>
+
+                <!-- Opportunities Grid -->
+                <div class="opportunities-grid">
+                    <!-- Left Column -->
+                    <div class="opportunities-left">
+                        <!-- Card 1: Học Thẩm Thấu -->
+                        <div class="opportunity-card">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="opportunity-card-title">Học Thẩm Thấu</h3>
+                            </div>
+                            <p class="opportunity-card-desc">20% lý thuyết ngay tại khu vực thực hành, 80% thực hành</p>
+                            <a href="#" class="card-link-more">
+                                Xem thêm
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- Card 2: Cơ Hội Nghề Nghiệp -->
+                        <div class="opportunity-card">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                                    </svg>
+                                </div>
+                                <h3 class="opportunity-card-title">Cơ Hội Nghề Nghiệp</h3>
+                            </div>
+                            <p class="opportunity-card-desc">Sau 1 tháng học, có cơ hội làm việc partime tại Qspa 150k/giờ, thu nhập lên đến 4-6 triệu/tháng</p>
+                            <a href="#" class="card-link-more">
+                                Xem thêm
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="opportunities-right">
+                        <!-- Card 3: Hỗ Trợ Cho Học Viên -->
+                        <div class="opportunity-card opportunity-card-large">
+                            <div class="card-header">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="opportunity-card-title">Hỗ Trợ Cho Học Viên</h3>
+                            </div>
+                            <p class="opportunity-card-desc">Q Academy mong muốn đào tạo học viên trở thành chuyên gia Spa thật thụ, mọi trở ngại của việc chúng tôi đều sẵn lòng hỗ trợ.</p>
+                            <ul class="opportunity-card-list">
+                                <li>Hoàn tiền học nếu không hài lòng, sau 2 tuần học không yêu cầu lý do.</li>
+                                <li>Hỗ trợ chỗ ở cho học viên ở tỉnh</li>
+                                <li>Thanh toán theo từng đợt học</li>
+                                <li>Học ngay sau khi thanh toán, không chờ đợi mở lớp, 1 học viên</li>
+                            </ul>
+                            <a href="#" class="card-link-more">
+                                Xem thêm
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Form Section -->
+        <section class="registration-section" id="registration">
+            <div class="registration-background">
+                <img src="assets/images/registration-bg.jpg" alt="Registration Background" class="registration-bg-image">
+                <div class="registration-overlay"></div>
+            </div>
+
+            <div class="registration-container">
+                <!-- Left Content -->
+                <div class="registration-content">
+                    <h2 class="registration-subtitle">BẮT ĐẦU HÀNH TRÌNH TRỞ THÀNH</h2>
+                    <h3 class="registration-title">CHUYÊN GIA SPA</h3>
+                    <p class="registration-desc">Để lại thông tin để được đội ngũ chuyên viên của Q Academy tư vấn lộ trình phù hợp nhất với bạn.</p>
+
+                    <div class="registration-contact">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">HOTLINE TƯ VẤN</span>
+                                <span class="contact-value"><a href="tel:0987654321" style="color: inherit; text-decoration: none;">0987 654 321</a></span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">ĐỊA CHỈ</span>
+                                <span class="contact-value"><a href="https://maps.app.goo.gl/fgfmSEdNWdX5WjYE8" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">93 Hoà Hưng, Phường Hoà Hưng, TP.HCM</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Form -->
+                <div class="registration-form-wrapper">
+                    <form class="registration-form" id="registrationForm">
+                        <h4 class="form-title">ĐĂNG KÝ TƯ VẤN</h4>
+
+                        <!-- Countdown Timer -->
+                        <div class="countdown-timer">
+                            <div class="countdown-item">
+                                <span class="countdown-label">Ngày</span>
+                                <span class="countdown-value" id="countdownDays">01</span>
+                            </div>
+                            <span class="countdown-separator">:</span>
+                            <div class="countdown-item">
+                                <span class="countdown-label">Giờ</span>
+                                <span class="countdown-value" id="countdownHours">12</span>
+                            </div>
+                            <span class="countdown-separator">:</span>
+                            <div class="countdown-item">
+                                <span class="countdown-label">Phút</span>
+                                <span class="countdown-value" id="countdownMinutes">44</span>
+                            </div>
+                            <span class="countdown-separator">:</span>
+                            <div class="countdown-item">
+                                <span class="countdown-label">Giây</span>
+                                <span class="countdown-value" id="countdownSeconds">30</span>
+                            </div>
+                        </div>
+
+                        <!-- Warning Text -->
+                        <p class="form-warning">Chỉ còn 5 suất cuối cùng</p>
+
+                        <!-- Form Fields -->
+                        <div class="form-group">
+                            <label class="form-label">HỌ VÀ TÊN</label>
+                            <input type="text" class="form-input" placeholder="Nhập họ tên của bạn" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">SỐ ĐIỆN THOẠI</label>
+                            <input type="tel" class="form-input" placeholder="Nhập số điện thoại" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">CHỌN LỘ TRÌNH</label>
+                            <div class="form-select-wrapper">
+                                <select class="form-select" id="courseSelect" required>
+                                    <option value="">Chọn lộ trình của bạn</option>
+                                    <option value="q-therapist">Q-Therapist: Khóa học 6 tháng</option>
+                                    <option value="q-professional">Q-Professional: Khóa học 3 tháng</option>
+                                    <option value="q-skill">Q-Skill: Khóa học 1 tháng</option>
+                                </select>
+                                <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">LỚP HỌC QUAN TÂM</label>
+                            <div class="form-select-wrapper">
+                                <select class="form-select" id="classSelect" required disabled>
+                                    <option value="">Chọn lớp học quan tâm</option>
+                                </select>
+                                <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="form-submit">
+                            GỬI ĐĂNG KÝ NGAY
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </button>
+
+                        <p class="form-note">Chúng tôi cam kết bảo mật thông tin của bạn.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Footer Main -->
+            <div class="footer-main">
+                <!-- Footer Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                        <img src="assets/images/logo_qacademy.png" alt="Q Academy Logo" class="footer-logo">
+                        <div class="footer-brand-text">
+                            <h3 class="footer-brand-name">Q ACADEMY</h3>
+                            <p class="footer-brand-desc">Học viện đào tạo Spa hàng đầu với sứ mệnh nâng tầm chuẩn mực nghề Spa tại Việt Nam, kiến tạo tương lai vững chắc cho học viên.</p>
+                        </div>
+                    </div>
+                    <div class="footer-contact-info">
+                        <p>Địa chỉ: <a href="https://maps.app.goo.gl/fgfmSEdNWdX5WjYE8" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">93 Hoà Hưng, Phường Hoà Hưng, TP.HCM</a></p>
+                        <p>Hotline tư vấn: <a href="tel:0987654321" style="color: inherit; text-decoration: none;">0987 654 321</a></p>
+                    </div>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <!-- Khóa học -->
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">Khóa học</h4>
+                        <ul class="footer-menu">
+                            <li><a href="#">Q-Therapist</a></li>
+                            <li><a href="#">Q-Professional</a></li>
+                            <li><a href="#">Q-Skill</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Kết nối -->
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">Kết nối</h4>
+                        <ul class="footer-menu">
+                            <li><a href="https://www.facebook.com/q.academy.spa/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Tiktok</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 Q Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Registration Modal -->
+    <div class="registration-modal" id="registrationModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="modalClose" aria-label="Close">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+
+            <div class="modal-content">
+                <h3 class="modal-title">ĐĂNG KÝ TƯ VẤN</h3>
+
+                <!-- Countdown Timer -->
+                <div class="countdown-timer">
+                    <div class="countdown-item">
+                        <span class="countdown-label">Ngày</span>
+                        <span class="countdown-value" id="modalCountdownDays">01</span>
+                    </div>
+                    <span class="countdown-separator">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-label">Giờ</span>
+                        <span class="countdown-value" id="modalCountdownHours">12</span>
+                    </div>
+                    <span class="countdown-separator">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-label">Phút</span>
+                        <span class="countdown-value" id="modalCountdownMinutes">44</span>
+                    </div>
+                    <span class="countdown-separator">:</span>
+                    <div class="countdown-item">
+                        <span class="countdown-label">Giây</span>
+                        <span class="countdown-value" id="modalCountdownSeconds">30</span>
+                    </div>
+                </div>
+
+                <!-- Warning Text -->
+                <p class="form-warning">Chỉ còn 5 suất cuối cùng</p>
+
+                <form class="modal-form" id="modalForm">
+                    <div class="form-group">
+                        <label class="form-label">HỌ VÀ TÊN</label>
+                        <input type="text" class="form-input" name="fullname" placeholder="Nhập họ tên của bạn" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">SỐ ĐIỆN THOẠI</label>
+                        <input type="tel" class="form-input" name="phone" placeholder="Nhập số điện thoại" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">CHỌN LỘ TRÌNH</label>
+                        <div class="form-select-wrapper">
+                            <select class="form-select" id="modalCourseSelect" name="course" required>
+                                <option value="">Chọn lộ trình của bạn</option>
+                                <option value="q-therapist">Q-Therapist: Khóa học 6 tháng</option>
+                                <option value="q-professional">Q-Professional: Khóa học 3 tháng</option>
+                                <option value="q-skill">Q-Skill: Khóa học 1 tháng</option>
+                            </select>
+                            <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">LỚP HỌC QUAN TÂM</label>
+                        <div class="form-select-wrapper">
+                            <select class="form-select" id="modalClassSelect" name="class" required disabled>
+                                <option value="">Chọn lớp học quan tâm</option>
+                            </select>
+                            <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="modal-submit">
+                        GỬI ĐĂNG KÝ NGAY
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12 5 19 12 12 19"/>
+                        </svg>
+                    </button>
+
+                    <p class="form-note">Chúng tôi cam kết bảo mật thông tin của bạn.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/courses.js"></script>
+    <script src="js/team.js"></script>
+    <script src="js/registration.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>
